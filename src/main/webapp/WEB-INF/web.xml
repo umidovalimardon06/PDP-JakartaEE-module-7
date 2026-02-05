@@ -5,13 +5,13 @@
          version="6.0">
 
     <servlet>
-        <servlet-name>MyServlet</servlet-name>
-        <servlet-class>com.github.umidovalimardon06.MainServlet</servlet-class>
+        <servlet-name>Items</servlet-name>
+        <servlet-class>com.github.umidovalimardon06.Items</servlet-class>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>MyServlet</servlet-name>
-        <url-pattern>/app</url-pattern>
+        <servlet-name>Items</servlet-name>
+        <url-pattern>/items</url-pattern>
     </servlet-mapping>
 
 
