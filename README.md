@@ -1,0 +1,17 @@
+## Repository Branches
+
+This repository contains multiple branches.
+
+### 1. Lesson-1
+🔗 [View branch](https://github.com/umidovalimardon06/PDP-JakartaEE-module-7/tree/lesson-1)
+
+**Topics covered:**
+- Jakarta EE
+- Servlets
+- Apache Tomcat (configuration)
+- Web application architecture
+- Servlet class
+- `web.xml`
+- Servlet URL mapping
+- Handling request parameters
+- HTML code generation (HTML writer)
