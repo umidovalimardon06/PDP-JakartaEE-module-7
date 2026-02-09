@@ -14,15 +14,4 @@
         <url-pattern>/items</url-pattern>
     </servlet-mapping>
 
-    <servlet>
-        <servlet-name>Example</servlet-name>
-        <servlet-class>com.github.umidovalimardon06.Example</servlet-class>
-    </servlet>
-
-    <servlet-mapping>
-        <servlet-name>Example</servlet-name>
-        <url-pattern>/example</url-pattern>
-    </servlet-mapping>
-
-
 </web-app>
