@@ -23,8 +23,12 @@ public class FileDownload extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String fileName = req.getParameter("file_name");
+        String substring = fileName.substring(fileName.lastIndexOf("."));
         byte[] bytes = Files.readAllBytes(rootPath.resolve(fileName));
-        resp.getOutputStream().write(bytes);
 
+        resp.addHeader("Content-Type","application/octet-stream");
+        resp.addHeader("Content-Disposition","attachment; filename=file"+substring);
+
+        resp.getOutputStream().write(bytes);
     }
 }
