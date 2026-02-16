@@ -15,3 +15,23 @@ This repository contains multiple branches.
 - Servlet URL mapping
 - Handling request parameters
 - HTML code generation (HTML writer)
+
+### 5. Lesson-5
+🔗 [View branch](https://github.com/umidovalimardon06/PDP-JakartaEE-module-7/tree/lesson-5)
+
+**Topics covered:**
+- File upload 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
