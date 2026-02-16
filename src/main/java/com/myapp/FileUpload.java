@@ -25,6 +25,8 @@ public class FileUpload extends HttpServlet {
         nameSplittingLogger(submittedFileName);
         file.write(submittedFileName);
         System.out.println("<INFO> FILE-SAVED(PART)");
+        req.setAttribute("fileName",submittedFileName);
+        req.getRequestDispatcher("success.jsp").forward(req,resp);
     }
 
     private static void nameSplittingLogger(String submittedFileName) {
@@ -39,7 +41,7 @@ public class FileUpload extends HttpServlet {
         System.out.println("<INFO> Format: " + format);
     }
 
-    private static boolean canExtractFileExtension(String submittedFileName) {
+    public static boolean canExtractFileExtension(String submittedFileName) {
         int lastDotIndex = submittedFileName.lastIndexOf('.');
         return lastDotIndex > 0 && lastDotIndex < submittedFileName.length() - 1;
     }
