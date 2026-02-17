@@ -1,4 +1,4 @@
-package com.myapp;
+package com.bookmanager;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -10,7 +10,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import static com.myapp.FileUpload.canExtractFileExtension;
+import static com.bookmanager.FileUpload.canExtractFileExtension;
 
 @WebServlet(name = "DownloadServlet",value = "/download")
 public class FileDownload extends HttpServlet {

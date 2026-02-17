@@ -1,4 +1,4 @@
-package com.myapp;
+package com.bookmanager;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.MultipartConfig;
