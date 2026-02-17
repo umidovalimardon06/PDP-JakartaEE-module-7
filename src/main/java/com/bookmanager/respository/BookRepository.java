@@ -22,6 +22,12 @@ public class BookRepository {
         return bookList;
     }
 
+    @SneakyThrows
+    public boolean delete(String title) {
+        Class.forName("org.postgresql.Driver");
+        return deleteByTitle( "DELETE FROM BOOK WHERE title = '" + title + "'");
+    }
+
     private static ResultSet getResultSet(String sql) throws SQLException {
         Connection connection = DriverManager.getConnection(
           "jdbc:postgresql://localhost:5432/jdbc_test_db",
@@ -32,6 +38,15 @@ public class BookRepository {
         Statement statement = connection.createStatement();
         ResultSet set = statement.executeQuery(sql);
         return set;
+    }
+    private static boolean deleteByTitle(String sql) throws SQLException {
+        Connection connection = DriverManager.getConnection(
+          "jdbc:postgresql://localhost:5432/jdbc_test_db",
+          "jdbc_test",
+          "123"
+        );
+        Statement statement = connection.createStatement();
+        return statement.execute(sql);
     }
 
 /*    @SneakyThrows

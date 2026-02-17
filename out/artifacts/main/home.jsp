@@ -47,6 +47,9 @@
             font-size: 0.9rem;
         }
         .table {
+            --bs-table-bg: #1c1c1c;
+            --bs-table-hover-bg: #2a2a2a;
+            --bs-table-border-color: #2e2e2e;
             color: #d0d0d0;
             border-color: #333;
             margin-bottom: 0;
@@ -62,6 +65,7 @@
             padding: 1rem;
         }
         .table tbody tr {
+            background-color: #1c1c1c;
             border-color: #2e2e2e;
             transition: background-color 0.2s ease;
         }
@@ -69,13 +73,14 @@
             background-color: #2a2a2a;
         }
         .table tbody td {
+            background-color: #1c1c1c;
             border-color: #2e2e2e;
             vertical-align: middle;
             padding: 0.85rem 1rem;
             color: #d0d0d0;
         }
         .book-title {
-            color: #ffffff;
+            color: #555555;
             font-weight: 500;
         }
         .book-author {
