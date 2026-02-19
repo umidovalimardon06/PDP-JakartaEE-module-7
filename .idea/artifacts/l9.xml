@@ -1,13 +1,13 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="MOD-7:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/MOD_7_war_exploded</output-path>
+  <artifact type="exploded-war" name="l9">
+    <output-path>$PROJECT_DIR$/out/artifacts/l9</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="JakartaEE" />
         </element>
       </element>
-      <element id="javaee-facet-resources" facet="MOD-7/web/Web" />
+      <element id="javaee-facet-resources" facet="JakartaEE/web/Web" />
     </root>
   </artifact>
 </component>
