@@ -23,6 +23,13 @@ This repository contains multiple branches.
 - File upload 
 - File download
 
+### 6. Lesson-6
+🔗 [View branch](https://github.com/umidovalimardon06/PDP-JakartaEE-module-7/tree/lesson-6)
+
+**Topics covered:**
+- Init-param 
+- Sessions & Cookies!
+
 ### Project
 🔗 [View branch](https://github.com/umidovalimardon06/PDP-JakartaEE-module-7/tree/project)
 
