@@ -29,6 +29,15 @@ This repository contains multiple branches.
 **Topics covered:**
 - Init-param 
 - Sessions & Cookies!
+- 
+### 7. Lesson-7
+🔗 [View branch](https://github.com/umidovalimardon06/PDP-JakartaEE-module-7/tree/lesson-7)
+
+**Topics covered:**
+- ORM
+- JPA
+- Talent-form-project
+
 
 ### Project
 🔗 [View branch](https://github.com/umidovalimardon06/PDP-JakartaEE-module-7/tree/project)
