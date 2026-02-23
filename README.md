@@ -37,7 +37,13 @@ This repository contains multiple branches.
 - ORM
 - JPA
 - Talent-form-project
+- 
+- ### 8. Lesson-8
+🔗 [View branch](https://github.com/umidovalimardon06/PDP-JakartaEE-module-7/tree/lesson-8)
 
+**Topics covered:**
+- JQL
+- JPA entity-column annotations
 
 ### Project
 🔗 [View branch](https://github.com/umidovalimardon06/PDP-JakartaEE-module-7/tree/project)
